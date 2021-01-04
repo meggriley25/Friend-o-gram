@@ -2,11 +2,35 @@
 
 <html>
 
-    <head></head>
+    <head>
+        <style>
+            .photo{
+                height: 400px;
+            }
+
+            .photo-holder{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            #photo-1{
+                background-image: url('photo-1');
+            }
+        </style>
+    </head>
 
     <body>
         <h1>Friend-o-gram</h1>
-        <div>These are my friends</div>
+        
+        <div class= "photo-holder">
+            <div class="photo" id="photo-1"></div>
+            <div class="photo" id="photo-2"></div>
+            <div class="photo" id="photo-3"></div>
+            <div class="photo" id="photo-4"></div>
+            <div class="photo" id="photo-5"></div>
+            <div class="photo" id="photo-6"></div>
+        </div>
+
     </body>
 
 </html>
